@@ -1,0 +1,2 @@
+http://localhost./grid2/perform.php?fn=../team-1/gk_grid_process.txt
+http://localhost./grid2/perform.php?fn=../team-1/gk_grid_process.txt

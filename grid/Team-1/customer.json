@@ -1,0 +1,307 @@
+{
+    "table_name": "customer",
+    "create_sql": "CREATE TABLE `customer` (\n  `c_id` int unsigned NOT NULL AUTO_INCREMENT,\n  `c_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,\n  `price_plan_id` int unsigned NOT NULL,\n  `sub_discount` int NOT NULL,\n  PRIMARY KEY (`c_id`),\n  KEY `ix_customer_id_plan` (`c_id`,`price_plan_id`)\n) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+    "size_kb": "16.00",
+    "data": [
+        {
+            "c_id": "1",
+            "c_name": "Alice Smith",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "2",
+            "c_name": "Bob Johnson",
+            "price_plan_id": "1",
+            "sub_discount": "5"
+        },
+        {
+            "c_id": "3",
+            "c_name": "Charlie Brown",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "4",
+            "c_name": "Diana Prince",
+            "price_plan_id": "1",
+            "sub_discount": "10"
+        },
+        {
+            "c_id": "5",
+            "c_name": "Edward Clark",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "6",
+            "c_name": "Fiona Glen",
+            "price_plan_id": "1",
+            "sub_discount": "3"
+        },
+        {
+            "c_id": "7",
+            "c_name": "George White",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "8",
+            "c_name": "Hannah Green",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "9",
+            "c_name": "Ivan Black",
+            "price_plan_id": "1",
+            "sub_discount": "7"
+        },
+        {
+            "c_id": "10",
+            "c_name": "Julia Roberts",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "11",
+            "c_name": "Kevin O'Connell",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "12",
+            "c_name": "Laura Peterson",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "13",
+            "c_name": "Mike Davis",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "14",
+            "c_name": "Nancy Drew",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "15",
+            "c_name": "Oliver Stone",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "16",
+            "c_name": "Pamela Reed",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "17",
+            "c_name": "Quinn Fuller",
+            "price_plan_id": "1",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "18",
+            "c_name": "Robert Lewis",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "19",
+            "c_name": "Sarah Miller",
+            "price_plan_id": "2",
+            "sub_discount": "5"
+        },
+        {
+            "c_id": "20",
+            "c_name": "Tom Wilson",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "21",
+            "c_name": "Ursula Vance",
+            "price_plan_id": "2",
+            "sub_discount": "8"
+        },
+        {
+            "c_id": "22",
+            "c_name": "Victor Hugo",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "23",
+            "c_name": "Wendy Adams",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "24",
+            "c_name": "Xavier King",
+            "price_plan_id": "2",
+            "sub_discount": "4"
+        },
+        {
+            "c_id": "25",
+            "c_name": "Yvonne Queen",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "26",
+            "c_name": "Zack Taylor",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "27",
+            "c_name": "Amy Johnson",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "28",
+            "c_name": "Ben Carter",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "29",
+            "c_name": "Cindy Davis",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "30",
+            "c_name": "Dan Evans",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "31",
+            "c_name": "Eva Foster",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "32",
+            "c_name": "Frank Green",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "33",
+            "c_name": "Grace Hall",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "34",
+            "c_name": "Henry Irving",
+            "price_plan_id": "2",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "35",
+            "c_name": "Irene Jones",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "36",
+            "c_name": "Jack Kelly",
+            "price_plan_id": "3",
+            "sub_discount": "10"
+        },
+        {
+            "c_id": "37",
+            "c_name": "Karen Lee",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "38",
+            "c_name": "Larry Moore",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "39",
+            "c_name": "Mona Nelson",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "40",
+            "c_name": "Noah Owens",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "41",
+            "c_name": "Olivia Perry",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "42",
+            "c_name": "Paul Quinn",
+            "price_plan_id": "3",
+            "sub_discount": "15"
+        },
+        {
+            "c_id": "43",
+            "c_name": "Rita Scott",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "44",
+            "c_name": "Sam Turner",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "45",
+            "c_name": "Tina Underwood",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "46",
+            "c_name": "Ulysses Vance",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "47",
+            "c_name": "Vicky Walker",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "48",
+            "c_name": "Will White",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "49",
+            "c_name": "Xenia Young",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        },
+        {
+            "c_id": "50",
+            "c_name": "Yuri Zaleski",
+            "price_plan_id": "3",
+            "sub_discount": "0"
+        }
+    ]
+}

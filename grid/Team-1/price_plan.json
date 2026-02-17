@@ -1,0 +1,88 @@
+{
+    "table_name": "price_plan",
+    "create_sql": "CREATE TABLE `price_plan` (\n  `pp_id` int unsigned NOT NULL,\n  `pp_title` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,\n  `call_type` int unsigned NOT NULL,\n  `duration_cost` int NOT NULL,\n  `basic_fee` int NOT NULL,\n  `discount_id` int NOT NULL,\n  `monthly_fee` int NOT NULL,\n  KEY `ix_price_plan_ppid_type` (`pp_id`,`call_type`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+    "size_kb": "32.00",
+    "data": [
+        {
+            "pp_id": "1",
+            "pp_title": "Private Plan",
+            "call_type": "1",
+            "duration_cost": "10",
+            "basic_fee": "2",
+            "discount_id": "0",
+            "monthly_fee": "2000"
+        },
+        {
+            "pp_id": "1",
+            "pp_title": "Private Plan",
+            "call_type": "2",
+            "duration_cost": "5",
+            "basic_fee": "1",
+            "discount_id": "0",
+            "monthly_fee": "2000"
+        },
+        {
+            "pp_id": "1",
+            "pp_title": "Private Plan",
+            "call_type": "3",
+            "duration_cost": "1",
+            "basic_fee": "0",
+            "discount_id": "0",
+            "monthly_fee": "2000"
+        },
+        {
+            "pp_id": "2",
+            "pp_title": "Company Plan",
+            "call_type": "1",
+            "duration_cost": "15",
+            "basic_fee": "3",
+            "discount_id": "101",
+            "monthly_fee": "5000"
+        },
+        {
+            "pp_id": "2",
+            "pp_title": "Company Plan",
+            "call_type": "2",
+            "duration_cost": "8",
+            "basic_fee": "2",
+            "discount_id": "102",
+            "monthly_fee": "5000"
+        },
+        {
+            "pp_id": "2",
+            "pp_title": "Company Plan",
+            "call_type": "3",
+            "duration_cost": "2",
+            "basic_fee": "0",
+            "discount_id": "103",
+            "monthly_fee": "5000"
+        },
+        {
+            "pp_id": "3",
+            "pp_title": "Firm Plan",
+            "call_type": "1",
+            "duration_cost": "20",
+            "basic_fee": "5",
+            "discount_id": "0",
+            "monthly_fee": "10000"
+        },
+        {
+            "pp_id": "3",
+            "pp_title": "Firm Plan",
+            "call_type": "2",
+            "duration_cost": "10",
+            "basic_fee": "3",
+            "discount_id": "0",
+            "monthly_fee": "10000"
+        },
+        {
+            "pp_id": "3",
+            "pp_title": "Firm Plan",
+            "call_type": "3",
+            "duration_cost": "3",
+            "basic_fee": "0",
+            "discount_id": "0",
+            "monthly_fee": "10000"
+        }
+    ]
+}

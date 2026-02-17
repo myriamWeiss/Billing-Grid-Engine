@@ -1,0 +1,67 @@
+{
+    "table_name": "discount",
+    "create_sql": "CREATE TABLE `discount` (\n  `d_id` int unsigned NOT NULL,\n  `fromd` int unsigned NOT NULL,\n  `tilld` int unsigned NOT NULL,\n  `percentage` int unsigned NOT NULL,\n  KEY `ix_discount_did_range` (`d_id`,`fromd`,`tilld`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+    "size_kb": "32.00",
+    "data": [
+        {
+            "d_id": "101",
+            "fromd": "0",
+            "tilld": "60",
+            "percentage": "5"
+        },
+        {
+            "d_id": "101",
+            "fromd": "61",
+            "tilld": "120",
+            "percentage": "10"
+        },
+        {
+            "d_id": "101",
+            "fromd": "121",
+            "tilld": "180",
+            "percentage": "15"
+        },
+        {
+            "d_id": "101",
+            "fromd": "181",
+            "tilld": "0",
+            "percentage": "20"
+        },
+        {
+            "d_id": "102",
+            "fromd": "0",
+            "tilld": "25",
+            "percentage": "3"
+        },
+        {
+            "d_id": "102",
+            "fromd": "26",
+            "tilld": "100",
+            "percentage": "7"
+        },
+        {
+            "d_id": "102",
+            "fromd": "101",
+            "tilld": "0",
+            "percentage": "12"
+        },
+        {
+            "d_id": "103",
+            "fromd": "0",
+            "tilld": "128",
+            "percentage": "2"
+        },
+        {
+            "d_id": "103",
+            "fromd": "129",
+            "tilld": "1024",
+            "percentage": "8"
+        },
+        {
+            "d_id": "103",
+            "fromd": "1025",
+            "tilld": "0",
+            "percentage": "18"
+        }
+    ]
+}
