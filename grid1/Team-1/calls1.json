@@ -1,0 +1,21 @@
+{
+    "table_name": "calls1",
+    "create_sql": "CREATE TABLE `calls1` (\n  `customer_id` int NOT NULL,\n  `call_type` int NOT NULL,\n  `duration` int NOT NULL,\n  `date` date NOT NULL,\n  `time` time NOT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+    "size_kb": "23088.00",
+    "data": [
+        {
+            "customer_id": "1",
+            "call_type": "1",
+            "duration": "1",
+            "date": "2025-08-07",
+            "time": "03:58:28"
+        },
+        {
+            "customer_id": "1",
+            "call_type": "1",
+            "duration": "1",
+            "date": "2025-08-23",
+            "time": "17:29:11"
+        }
+    ]
+}
