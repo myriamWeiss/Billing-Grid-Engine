@@ -1,0 +1,357 @@
+{
+    "table_name": "billing",
+    "create_sql": "CREATE TABLE `billing` (\n  `b_c_id` int unsigned NOT NULL,\n  `yearmonth` varchar(7) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '2017-08',\n  `total` int NOT NULL,\n  `discount` int NOT NULL,\n  `to_pay` int NOT NULL,\n  PRIMARY KEY (`b_c_id`),\n  UNIQUE KEY `uq_billing_customer_month` (`b_c_id`,`yearmonth`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
+    "size_kb": "32.00",
+    "data": [
+        {
+            "b_c_id": "1",
+            "yearmonth": "2025-08",
+            "total": "2721274",
+            "discount": "0",
+            "to_pay": "2721274"
+        },
+        {
+            "b_c_id": "2",
+            "yearmonth": "2025-08",
+            "total": "2759010",
+            "discount": "137951",
+            "to_pay": "2621060"
+        },
+        {
+            "b_c_id": "3",
+            "yearmonth": "2025-08",
+            "total": "2778121",
+            "discount": "0",
+            "to_pay": "2778121"
+        },
+        {
+            "b_c_id": "4",
+            "yearmonth": "2025-08",
+            "total": "2778363",
+            "discount": "277836",
+            "to_pay": "2500527"
+        },
+        {
+            "b_c_id": "5",
+            "yearmonth": "2025-08",
+            "total": "2782275",
+            "discount": "0",
+            "to_pay": "2782275"
+        },
+        {
+            "b_c_id": "6",
+            "yearmonth": "2025-08",
+            "total": "2780041",
+            "discount": "83401",
+            "to_pay": "2696640"
+        },
+        {
+            "b_c_id": "7",
+            "yearmonth": "2025-08",
+            "total": "2736851",
+            "discount": "0",
+            "to_pay": "2736851"
+        },
+        {
+            "b_c_id": "8",
+            "yearmonth": "2025-08",
+            "total": "2726994",
+            "discount": "0",
+            "to_pay": "2726994"
+        },
+        {
+            "b_c_id": "9",
+            "yearmonth": "2025-08",
+            "total": "2769170",
+            "discount": "193842",
+            "to_pay": "2575328"
+        },
+        {
+            "b_c_id": "10",
+            "yearmonth": "2025-08",
+            "total": "2725205",
+            "discount": "0",
+            "to_pay": "2725205"
+        },
+        {
+            "b_c_id": "11",
+            "yearmonth": "2025-08",
+            "total": "2759362",
+            "discount": "0",
+            "to_pay": "2759362"
+        },
+        {
+            "b_c_id": "12",
+            "yearmonth": "2025-08",
+            "total": "2795435",
+            "discount": "0",
+            "to_pay": "2795435"
+        },
+        {
+            "b_c_id": "13",
+            "yearmonth": "2025-08",
+            "total": "2678085",
+            "discount": "0",
+            "to_pay": "2678085"
+        },
+        {
+            "b_c_id": "14",
+            "yearmonth": "2025-08",
+            "total": "2711259",
+            "discount": "0",
+            "to_pay": "2711259"
+        },
+        {
+            "b_c_id": "15",
+            "yearmonth": "2025-08",
+            "total": "2760037",
+            "discount": "0",
+            "to_pay": "2760037"
+        },
+        {
+            "b_c_id": "16",
+            "yearmonth": "2025-08",
+            "total": "2749515",
+            "discount": "0",
+            "to_pay": "2749515"
+        },
+        {
+            "b_c_id": "17",
+            "yearmonth": "2025-08",
+            "total": "2739110",
+            "discount": "0",
+            "to_pay": "2739110"
+        },
+        {
+            "b_c_id": "18",
+            "yearmonth": "2025-08",
+            "total": "2313959",
+            "discount": "0",
+            "to_pay": "2313959"
+        },
+        {
+            "b_c_id": "19",
+            "yearmonth": "2025-08",
+            "total": "2324417",
+            "discount": "116221",
+            "to_pay": "2208196"
+        },
+        {
+            "b_c_id": "20",
+            "yearmonth": "2025-08",
+            "total": "2374520",
+            "discount": "0",
+            "to_pay": "2374520"
+        },
+        {
+            "b_c_id": "21",
+            "yearmonth": "2025-08",
+            "total": "2297304",
+            "discount": "183784",
+            "to_pay": "2113519"
+        },
+        {
+            "b_c_id": "22",
+            "yearmonth": "2025-08",
+            "total": "2294994",
+            "discount": "0",
+            "to_pay": "2294994"
+        },
+        {
+            "b_c_id": "23",
+            "yearmonth": "2025-08",
+            "total": "2299073",
+            "discount": "0",
+            "to_pay": "2299073"
+        },
+        {
+            "b_c_id": "24",
+            "yearmonth": "2025-08",
+            "total": "2309726",
+            "discount": "92389",
+            "to_pay": "2217337"
+        },
+        {
+            "b_c_id": "25",
+            "yearmonth": "2025-08",
+            "total": "2306643",
+            "discount": "0",
+            "to_pay": "2306643"
+        },
+        {
+            "b_c_id": "26",
+            "yearmonth": "2025-08",
+            "total": "2312213",
+            "discount": "0",
+            "to_pay": "2312213"
+        },
+        {
+            "b_c_id": "27",
+            "yearmonth": "2025-08",
+            "total": "2243404",
+            "discount": "0",
+            "to_pay": "2243404"
+        },
+        {
+            "b_c_id": "28",
+            "yearmonth": "2025-08",
+            "total": "2345539",
+            "discount": "0",
+            "to_pay": "2345539"
+        },
+        {
+            "b_c_id": "29",
+            "yearmonth": "2025-08",
+            "total": "2286241",
+            "discount": "0",
+            "to_pay": "2286241"
+        },
+        {
+            "b_c_id": "30",
+            "yearmonth": "2025-08",
+            "total": "2316638",
+            "discount": "0",
+            "to_pay": "2316638"
+        },
+        {
+            "b_c_id": "31",
+            "yearmonth": "2025-08",
+            "total": "2346731",
+            "discount": "0",
+            "to_pay": "2346731"
+        },
+        {
+            "b_c_id": "32",
+            "yearmonth": "2025-08",
+            "total": "2326725",
+            "discount": "0",
+            "to_pay": "2326725"
+        },
+        {
+            "b_c_id": "33",
+            "yearmonth": "2025-08",
+            "total": "2342950",
+            "discount": "0",
+            "to_pay": "2342950"
+        },
+        {
+            "b_c_id": "34",
+            "yearmonth": "2025-08",
+            "total": "2342028",
+            "discount": "0",
+            "to_pay": "2342028"
+        },
+        {
+            "b_c_id": "35",
+            "yearmonth": "2025-08",
+            "total": "3472206",
+            "discount": "0",
+            "to_pay": "3472206"
+        },
+        {
+            "b_c_id": "36",
+            "yearmonth": "2025-08",
+            "total": "3551588",
+            "discount": "355159",
+            "to_pay": "3196429"
+        },
+        {
+            "b_c_id": "37",
+            "yearmonth": "2025-08",
+            "total": "3607387",
+            "discount": "0",
+            "to_pay": "3607387"
+        },
+        {
+            "b_c_id": "38",
+            "yearmonth": "2025-08",
+            "total": "3522511",
+            "discount": "0",
+            "to_pay": "3522511"
+        },
+        {
+            "b_c_id": "39",
+            "yearmonth": "2025-08",
+            "total": "3652990",
+            "discount": "0",
+            "to_pay": "3652990"
+        },
+        {
+            "b_c_id": "40",
+            "yearmonth": "2025-08",
+            "total": "3512613",
+            "discount": "0",
+            "to_pay": "3512613"
+        },
+        {
+            "b_c_id": "41",
+            "yearmonth": "2025-08",
+            "total": "3549982",
+            "discount": "0",
+            "to_pay": "3549982"
+        },
+        {
+            "b_c_id": "42",
+            "yearmonth": "2025-08",
+            "total": "3470554",
+            "discount": "520583",
+            "to_pay": "2949971"
+        },
+        {
+            "b_c_id": "43",
+            "yearmonth": "2025-08",
+            "total": "3558357",
+            "discount": "0",
+            "to_pay": "3558357"
+        },
+        {
+            "b_c_id": "44",
+            "yearmonth": "2025-08",
+            "total": "3469306",
+            "discount": "0",
+            "to_pay": "3469306"
+        },
+        {
+            "b_c_id": "45",
+            "yearmonth": "2025-08",
+            "total": "3656286",
+            "discount": "0",
+            "to_pay": "3656286"
+        },
+        {
+            "b_c_id": "46",
+            "yearmonth": "2025-08",
+            "total": "3451258",
+            "discount": "0",
+            "to_pay": "3451258"
+        },
+        {
+            "b_c_id": "47",
+            "yearmonth": "2025-08",
+            "total": "3545111",
+            "discount": "0",
+            "to_pay": "3545111"
+        },
+        {
+            "b_c_id": "48",
+            "yearmonth": "2025-08",
+            "total": "3540623",
+            "discount": "0",
+            "to_pay": "3540623"
+        },
+        {
+            "b_c_id": "49",
+            "yearmonth": "2025-08",
+            "total": "3523462",
+            "discount": "0",
+            "to_pay": "3523462"
+        },
+        {
+            "b_c_id": "50",
+            "yearmonth": "2025-08",
+            "total": "3128678",
+            "discount": "0",
+            "to_pay": "3128678"
+        }
+    ]
+}

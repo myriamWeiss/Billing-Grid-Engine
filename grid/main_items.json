@@ -1,0 +1,36 @@
+{
+  "menu": [
+    {
+      "title": "grid files list",
+      "url": "files_list.php"
+    },
+    {
+      "title": "grid 1 files list",
+      "url": "../grid1/files_list.php"
+    },
+    {
+      "title": "grid 2 files list",
+      "url": "../grid2/files_list.php"
+    },
+    {
+      "title": "Upload files to grid/Team-[PID]",
+      "url": "../grid/files_load.php"
+    },
+    {
+      "title": "Upload files to grid1/Team-[PID]",
+      "url": "../grid1/files_load.php"
+    },
+    {
+      "title": "Upload files to grid2/Team-[PID]",
+      "url": "../grid1/files_load.php"
+    },
+    {
+      "title": "-----------------------",
+      "url": ""
+    },
+    {
+      "title": "Start All Paralele Processing [PID]",
+      "url": "startall.php"
+    }
+  ]
+}
