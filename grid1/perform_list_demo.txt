@@ -1,0 +1,3 @@
+http://localhost/afeka/40246/GRID/master/export_table_to_json.php?db=calls_billing&table=price_plan&jsonfile=temp1_export.json
+get_file.php?fileurl=../grid/Team-1/temp1_export.json&filelocal=temp2_export.json
+import_json_to_table.php?db=calls_billing1&jsonfile=temp2_export.json
